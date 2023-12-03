@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+    background-color: white;
+}
+
+/*For the header*/
+
+header {
+background-color: #002654;
+width: 100%;
+}
+
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 87px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: white;
+}
+
+#undertext {
+    font-size: 48;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+}
+
+/*For the header*/
+
+/*For the navbar*/
+.nav {
+    text-align: center;
+    color: white;
+}
+nav a {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav a:hover{
+    color: red;
+}
+
+#timeline {
+    padding-right: 4cm;
+    
+}
+
+#resources {
+    padding-right: 4cm;
+    
+}
+
+#home {
+padding-right: 2cm;
+
+}
+
+
+
+/*For the navbar*/
+
+/*For the home-mainpage*/
+
+#welcome {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    margin-top: 40px;
+}
+#introtext {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: large;
+    margin-left: 300px;
+    margin-right: 300px; 
+    margin-bottom: 40px;
+   
+}
+
+#textlink {
+    text-decoration: none;
+    a:hover{
+        color: red;
+    }
+}
+
+ 
+
+#napoleonhome {
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-content: center;
+}
+/*For the home-mainpage*/
+
+/* For the timeline */
+#sign-event {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#text {
+    font-family: 'Libre Baskerville', serif;    
+}
+
+.red-box-left{
+    margin-right: 50%;
+    padding-top: 10%;
+}
+
+.red-box-right{
+    margin-left: 50%;
+    padding-top: 10%;
+}
+#townsquare {
+    width: 50%;
+    
+}
+
+/* For the timeline */
+
+footer {
+    background-color: #002654;
+    width: 100%;
+   
+ }
