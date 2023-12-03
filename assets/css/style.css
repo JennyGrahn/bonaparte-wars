@@ -1,4 +1,4 @@
-body{
+body {
     margin: auto;
     background-color: white;
 }
@@ -6,8 +6,8 @@ body{
 /*For the header*/
 
 header {
-background-color: #002654;
-width: 100%;
+    background-color: #002654;
+    width: 100%;
 }
 
 
@@ -16,19 +16,24 @@ h1 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 87px;
-    padding-left: 300px;
-    padding-right: 300px;
     color: white;
+    display: block;
+    margin-inline-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 #undertext {
     font-size: 48;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 40px
     font-family: 'Libre Baskerville', serif;
     color: white;
     text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /*For the header*/
@@ -38,6 +43,7 @@ h1 {
     text-align: center;
     color: white;
 }
+
 nav a {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -47,22 +53,22 @@ nav a {
     text-align: center;
 }
 
-nav a:hover{
+nav a:hover {
     color: red;
 }
 
 #timeline {
     padding-right: 4cm;
-    
+
 }
 
 #resources {
     padding-right: 4cm;
-    
+
 }
 
 #home {
-padding-right: 2cm;
+    padding-right: 2cm;
 
 }
 
@@ -77,33 +83,31 @@ padding-right: 2cm;
     color: black;
     margin-top: 40px;
 }
+
 #introtext {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: large;
-    margin-left: 300px;
-    margin-right: 300px; 
     margin-bottom: 40px;
-   
+
 }
 
 #textlink {
     text-decoration: none;
-    a:hover{
+
+    a:hover {
         color: red;
     }
 }
 
- 
+
 
 #napoleonhome {
     width: 50%;
     height: 50%;
-    margin-top: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
     align-content: center;
 }
+
 /*For the home-mainpage*/
 
 /* For the timeline */
@@ -114,21 +118,22 @@ padding-right: 2cm;
 }
 
 #text {
-    font-family: 'Libre Baskerville', serif;    
+    font-family: 'Libre Baskerville', serif;
 }
 
-.red-box-left{
+.red-box-left {
     margin-right: 50%;
     padding-top: 10%;
 }
 
-.red-box-right{
+.red-box-right {
     margin-left: 50%;
     padding-top: 10%;
 }
+
 #townsquare {
     width: 50%;
-    
+
 }
 
 /* For the timeline */
@@ -136,5 +141,7 @@ padding-right: 2cm;
 footer {
     background-color: #002654;
     width: 100%;
-   
- }
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
