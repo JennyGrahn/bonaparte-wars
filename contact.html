@@ -23,17 +23,27 @@
                     <a id="resources" href="resources.html">RESOURCES</a>
                     <a id="contact" href="contact.html">CONTACT</a>
     </header>
-    <section>
-        <form>
-            <h3>Do you want to get in touch or provide feedback? Please write a message to me!</h3>
-            <label for="email" id="email" name="email">Email</label><br>
-            <input type="email">
+    <div>
+
+        <h3>Do you want to get in touch or provide feedback?<br>Please write me a message here👇</h3>
+        <form id="form">
             <br>
-            <label for="text" id="text" name="text">Your message</label>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
             <br>
-            <input type="text">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="text">Your message</label>
+            <br>
+            <!-- Codestructure inserted from w3 schools website https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+            <textarea id="textform" name="textform" placeholder="type your message..." style="height:200px"></textarea>
+            <br>
+            <input type="submit" value="SEND">
+
+
         </form>
-    </section>
+    </div>
     <footer>The Napoleonic wars 2023</footer>
 </body>
 

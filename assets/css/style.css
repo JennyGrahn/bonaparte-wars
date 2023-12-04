@@ -138,6 +138,37 @@ nav a:hover {
 
 /* For the timeline */
 
+/*CSS for the contact page*/
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+
+#form {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    margin: 10%;
+}
+
+#name #email {
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    text-align: center;
+}
+
+#textform {
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    width: 70%;
+
+}
+
 footer {
     background-color: #002654;
     width: 100%;
