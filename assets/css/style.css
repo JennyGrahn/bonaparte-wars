@@ -160,8 +160,7 @@ h3 {
 the link: https://www.w3schools.com/howto/howto_css_contact_form.asp. The code was used in order 
 to create a more styled form as I did not figured it out how to do it alone */
 
-input[type=text],
-input[type=email],
+
 textarea {
     width: 100%;
     font-family: 'Libre Baskerville', serif;
@@ -174,14 +173,13 @@ textarea {
     resize: vertical
 }
 
-/* Same goes for this part of code-snippet*/
+/* Same goes for this code-snippet*/
 
 input[type=submit] {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #002654;
     color: white;
     padding: 12px 20px 12px 20px;
-    border: none;
     border-radius: 10px;
     cursor: pointer;
 }
