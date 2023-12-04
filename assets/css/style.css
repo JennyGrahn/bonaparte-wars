@@ -161,7 +161,8 @@ the link: https://www.w3schools.com/howto/howto_css_contact_form.asp. The code w
 to create a more styled form as I did not figured it out how to do it alone */
 
 input[type=email],
-input[type=text] textarea {
+input[type=text],
+textarea {
     width: 100%;
     font-family: 'Libre Baskerville', serif;
     color: black;
