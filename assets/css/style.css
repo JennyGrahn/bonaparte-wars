@@ -156,17 +156,34 @@ h3 {
     margin: 10%;
 }
 
-#name #email {
+/* Part of the codestructure is inserted from W3 schools website, 
+the link: https://www.w3schools.com/howto/howto_css_contact_form.asp. The code was used in order 
+to create a more styled form as I did not figured it out how to do it alone */
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
     font-family: 'Libre Baskerville', serif;
     color: black;
-    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
 }
 
-#textform {
-    font-family: 'Libre Baskerville', serif;
-    color: black;
-    width: 70%;
+/* Same goes for this part of code-snippet*/
 
+input[type=submit] {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #002654;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 footer {
@@ -174,5 +191,4 @@ footer {
     width: 100%;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-
 }
