@@ -24,8 +24,7 @@ h1 {
     margin-inline-end: 0px;
 }
 
-#undertext {
-    font-size: 48;
+.undertext {
     font-family: 'Libre Baskerville', serif;
     color: white;
     text-align: center;
@@ -87,7 +86,6 @@ nav a:hover {
 #introtext {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    font-size: large;
     margin-bottom: 40px;
 
 }
