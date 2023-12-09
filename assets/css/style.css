@@ -24,7 +24,7 @@ h1 {
     margin-inline-end: 0px;
 }
 
-.undertext {
+#undertext {
     font-family: 'Libre Baskerville', serif;
     color: white;
     text-align: center;
@@ -109,6 +109,7 @@ nav a:hover {
 /*For the home-mainpage*/
 
 /* For the timeline */
+
 #sign-event {
     font-family: 'Josefin Sans', sans-serif;
     color: black;
@@ -119,20 +120,16 @@ nav a:hover {
     font-family: 'Libre Baskerville', serif;
 }
 
-.red-box-left {
+.side-left {
     margin-right: 50%;
     padding-top: 10%;
 }
 
-.red-box-right {
+.side-right {
     margin-left: 50%;
     padding-top: 10%;
 }
 
-#townsquare {
-    width: 50%;
-
-}
 
 /* For the timeline */
 

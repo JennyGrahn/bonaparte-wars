@@ -21,7 +21,9 @@
 <body>
     <header>
         <h1>THE NAPOLEONIC WARS</h1>
-        <p class="undertext"><em>A brief timeline over the significant events</em></p>
+        <p id="undertext">
+            <em>A brief timeline over the significant events</em>
+        </p>
         <nav class="nav">
             <!-- navigational links -->
             <a id="home" href="index.html">HOME<a>
@@ -30,15 +32,17 @@
                     <a id="contact" href="contact.html">CONTACT</a>
         </nav>
     </header>
-    <main>
-        <div>
-            <h2 id="sign-event">The significant events of the Napolenic Wars</h2>
-        </div>
+    <main style="
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;">
+
         <section>
-            <div class="red-box-left">
-                <img src="newgreat-place-7826487_1280.kpeg.jpg">
+
             </div>
-            <div class="red-box-right">
+            <div class="side-right">
                 <h2 id="sign-event">Before 1799</h2>
                 <p id="text">
                     Born on August 15, 1769, in Corsica, which had recently become a French territory, Napoleon came
@@ -70,16 +74,13 @@
                     18 Brumaire, where he seized power and established the Consulate, marking the beginning of his road
                     to becoming the future emperor. And marking the beginning of the Napoleonic era and its wars.
                 </p>
-
-            </div>
+                <div class="side-left">
+                    <img src="assets/images/marie-antoinette-and-her-children.jpeg">
         </section>
 
         <section>
 
-            <div class="red-box-left">
-                <img src="newgreat-place-7826487_1280.kpeg.jpg">
-            </div>
-            <div class="red-box-right">
+            <div class="side-left">
                 <h2 id="sign-event">1799</h2>
                 <p id="text">In 1799, Napoleon Bonaparte orchestrated the Coup of 18 Brumaire, a political maneuver that
                     reshaped the course of French history. With this move, Napoleon seized control, bringing an end to
@@ -93,17 +94,16 @@
                 <p id="text">
                     Simultaneously, on the international stage, Napoleon embarked on a series of military campaigns that
                     would define the Napoleonic Wars.
-                    <!-- Remember to chech the wars, and maybe write a little bit more-->
                 </p>
-
+            </div>
+            <div class="side-left">
+                <img src="/assets/images/stairs.jpeg">
+            </div>
 
         </section>
 
         <section>
-            <div class="red-box-left">
-                <img src="newgreat-place-7826487_1280.kpeg.jpg">
-            </div>
-            <div class="red-box-right">
+            <div class="side-right">
                 <h2 id="sign-event">1800</h2>
                 <p id="text">In June of 1800, the Battle of Marengo unfolded as a pivotal moment in Napoleon's military
                     career. Fought in Italy between Napoleon's forces and the Austrians, the engagement initially posed
@@ -130,10 +130,8 @@
             </div>
 
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+
+                <div class="side-left">
                     <h2 id="sign-event">1802</h2>
                     <p id="text">
                         The long-lasting conflicts between France and Britain ended with the signing of the
@@ -144,24 +142,19 @@
                     <p id="text">
                         The agreement aimed to bring stability to the war-weary nations and restore diplomatic
                         relations. However, the peace was weak, and both sides remained skeptical of each other's
-                        intentions.
-                    </p>
-                    <p id="text"> The underlying issues, including trade disputes, colonial rivalries, and conflicting
-                        strategic
-                        nterests, were not adequately resolved. By 1803, tensions had escalated once again, leading to
-                        he breakdown of the Treaty of Amiens.</p>
+                        intentions. The underlying issues, including trade disputes, colonial rivalries, and conflicting
+                        strategic interests, were not adequately resolved. By 1803, tensions had escalated once again,
+                        leading to the breakdown of the Treaty of Amiens.</p>
 
-                    <!-- Confirmed on wikipedia about the treaty of amiens. -->
-
+                </div>
+                <div class="side-left">
+                    <img src="assets/images/andreas-achenbach-sea.jpeg">
                 </div>
             </section>
 
             <section>
-
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
                 </div>
-                <div class="red-box-right">
+                <div class="side-right">
                     <h2 id="sign-event">1803</h2>
                     <p id="text">In 1803, the resumption of hostilities between Britain and France marked the end of the
                         Treaty of Amiens. The conflict was characterized by intense naval engagements, with Britain
@@ -173,10 +166,8 @@
             </section>
 
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+
+                <div class="side-left">
                     <h2 id="sign-event">1804</h2>
                     <p id="text">
                         Napoleon crowned himself emperor of France in 1804. The coronation, which took place at Notre
@@ -191,16 +182,15 @@
                         He introduced the Code Napoléon, a comprehensive legal code, that drew inspiration from Roman
                         law and enlightenment principles, the code aimed to provide a clear, accessible, and consistent
                         set of laws for all people in France.</p>
-
                 </div>
-
-
+                <div class="side-left">
+                    <img src="assets/images/napoleoncoronation.jpeg">
+                </div>
             </section>
+
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+
+                <div class="side-right">
                     <h2 id="sign-event">1805</h2>
                     <p id="text">
                         The Battle of Austerlitz, fought on December 2, 1805, stands as one of Napoleon
@@ -221,17 +211,15 @@
                         demonstrated their prowess on the battlefield. The truce following the battle led to the Treaty
                         of Pressburg in December 1805, which significantly favoured French interests.
                     </p>
-
-
+                </div>
+                <div class="side-right">
+                    <img src="assets/images/frenchsoldiers.jpeg">
                 </div>
             </section>
 
 
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+                <div class="side-left">
                     <h2 id="sign-event">1807</h2>
                     <p id="text">
                         The Treaty of Tilsit, inked in June 1807, marked a pivotal moment in European
@@ -239,19 +227,17 @@
                         about a crucial balance of power that favoured France, isolating its perennial rival, Britain.
                         Economically, the treaty facilitated trade agreements and eased restrictions, while territorial
                         adjustments reflected a compromise in influence.
-                        <p id="text">
-                            While the alliance initially appeared strong, inherent tensions and conflicting long-term
-                            interests sowed the seeds for future disputes.
-                        </p>
+                    </p>
+                    <p id="text">
+                        While the alliance initially appeared strong, inherent tensions and conflicting long-term
+                        interests sowed the seeds for future disputes.
+                    </p>
                 </div>
-
-
             </section>
+
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
                 </div>
-                <div class="red-box-right">
+                <div class="side-right">
                     <h2 id="sign-event">1808</h2>
                     <p id="text">The Peninsular War started in 1808 when Napoleon's forces invaded the Iberian
                         Peninsula. The Spanish and Portuguese resisted by using guerrilla tactics and utilizing the
@@ -260,14 +246,12 @@
                         British intervention led by the Duke of Wellington, gradually turned the luck against the
                         French. The Peninsular War played a pivotal role in diminishing French influence in Europe.</p>
                 </div>
+                <div class="side-right">
+                    <img src="/assets/images/sunset.jpeg">
             </section>
 
             <section>
-
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+                <div class="side-left">
                     <h2 id="sign-event">1809</h2>
                     <p id="text">
                         The Battle of Wagram in July 1809 was a battle between Austria and France. The Battle
@@ -279,24 +263,17 @@
                         consequences for the losing Austria - shaping the political landscape in his favour once again.
                         Following the victory, the Treaty of Schönbrunn was signed in October 1809.
                     </p>
-
                 </div>
-
             </section>
 
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+
+                <div class="side-right">
                     <h2 id="sign-event">1812</h2>
                     <p id="text">
                         Napoleon's ill-fated Russian campaign in 1812 can be seen as the turning point for the
                         French emperor. Napoleon assembled a massive army, the Grande Armée, and invaded Russia in June
-                        1812.
-                    </p>
-                    <p id="text">
-                        The campaign began with initial successes as the French forces won several engagements,
+                        1812. The campaign began with initial successes as the French forces won several engagements,
                         including the Battle of Borodino in September 1812. However, the victory came at a high cost,
                         and the toll on the Grande Armée was substantial. As Napoleon entered Moscow in September, he
                         found the city deserted and set on fire by the retreating Russians.
@@ -315,18 +292,15 @@
                         of the Grande Armée. The defeat damaged Napoleon's military reputation and marked a turning
                         point in the Napoleonic Wars.
                     </p>
-                    <p id="text">
-                        Bonapartes downfall began.</p>
-
+                    <div class="side-right">
+                        <img src="assets/images/village-53371711280.jpeg">
+                    </div>
                 </div>
 
 
             </section>
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+                <div class="side-left">
                     <h2 id="sign-event">1813</h2>
                     <p id="text">
                         The Battle of Leipzig, recognized as the Battle of Nations, waged in March 1813. The
@@ -338,30 +312,23 @@
                     <p id="text"> The outcome of Leipzig dealt a severe blow to Napoleon's military might. The
                         coalition's victory
                         shattered the aura of invincibility surrounding the French emperor. The defeat compelled
-                        Napoleon to retreat, and the Allies saw the opportunity to invade France.
-                    </p>
-                    <p id="text">
-                        As the Allies pressed into French territory, the pressure on Napoleon's regime escalated.
+                        Napoleon to retreat, and the Allies saw the opportunity to invade France. As the Allies pressed
+                        into French territory, the pressure on Napoleon's regime escalated.
                     </p>
                 </div>
             </section>
 
             <section>
 
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
+
                 </div>
-                <div class="red-box-right">
+                <div class="side-right">
                     <h2 id="sign-event">1814</h2>
                     <p id="text">
                         In April 1814, confronted by external opposition and internal challenges, Napoleon
                         Bonaparte made the momentous decision to abdicate the throne. This move led to the restoration
                         of the Bourbon monarchy in France, effectively concluding the era of Napoleonic dominance, at
-                        least for the moment being.
-                    </p>
-                    <p id="text">
-                        Napoleon's abdication occurred amidst growing resistance from European coalitions and
-                        war-weariness among the French people. The abdication set the stage for the Bourbon Restoration,
+                        least for the moment being. The abdication set the stage for the Bourbon Restoration,
                         with Louis XVIII ascending to the throne.
                     </p>
                     <p id="text">
@@ -369,16 +336,14 @@
                         his rule over France. While the Napoleonic era came to a temporary halt, subsequent events
                         unfolded that would bring about Napoleon's return during the Hundred Days in 1815.
                     </p>
-
-                </div>
-
+                    <div class="side-right">
+                        <img src="assets/images/portoferraioelba.jpeg">
+                    </div>
             </section>
 
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
                 </div>
-                <div class="red-box-right">
+                <div class="side-left">
                     <h2 id="sign-event">1815</h2>
                     <p id="text">The Battle of Waterloo, fought on June 18, 1815, near the town of Waterloo in
                         present-day Belgium, marked the culmination of the Hundred Days and the end of Napoleon
@@ -387,10 +352,8 @@
                     <p id="text">
                         The battle unfolded between the French forces under Napoleon and the coalition armies led by the
                         Duke of Wellington, Arthur Wellesley, and the Prussian forces commanded by Gebhard Leberecht von
-                        Blücher.
-                    </p>
-                    <p id="text">
-                        The fighting was intense, with both sides sustaining heavy casualties. Napoleon sought to break
+                        Blücher. The fighting was intense, with both sides sustaining heavy casualties. Napoleon sought
+                        to break
                         Wellington's lines and secure a decisive victory, but the steadfastness of the Anglo-Allied
                         forces, coupled with the timely arrival of Prussian reinforcements, shifted the wheel of
                         fortune.
@@ -400,24 +363,15 @@
                         the French right flank. The arrival of the Prussians forced Napoleon to divert his attention,
                         creating a vulnerable point in the French lines that Wellington used to his advantage.
                     </p>
-                    <p is="text">
-                        The Battle of Waterloo concluded with the French army's retreat, marking a definitive victory
-                        for the coalition forces. The aftermath of the battle saw Napoleon abdicating for the second
-                        time in July 1815. It led to Napoleon's final exile to the remote island of Saint Helena, where
-                        he spent the remainder of his life.
-                    </p>
                     <p id="text">
-                        The defeat at Waterloo marked the end of Napoleons era.
+                        The Battle of Waterloo concluded with the French army's retreat, marking a definitive victory
+                        for the allies.
                     </p>
                 </div>
-
-
             </section>
+
             <section>
-                <div class="red-box-left">
-                    <img src="newgreat-place-7826487_1280.kpeg.jpg">
-                </div>
-                <div class="red-box-right">
+                <div class="side-right">
                     <h2 id="sign-event">After 1815</h2>
                     <p id="text">
                         Following this defeat, Napoleon abdicated for the final time on June 22, 1815. He
@@ -445,6 +399,9 @@
                         impact on history persist to this day.
                     </p>
 
+                </div>
+                <div class="side-right">
+                    <img src="assets/images/napoleonstature.jpeg">
                 </div>
             </section>
 
