@@ -1,11 +1,10 @@
-/*For the header*/
+/*For the Header*/
 
 header {
     background-color: #002654;
     width: 100%;
     margin: 0%;
 }
-
 
 h1 {
     font-size: 48px;
@@ -31,9 +30,8 @@ h1 {
     margin-inline-end: 0px;
 }
 
-/*For the header*/
+/* For the Navigation bar */
 
-/*For the navbar*/
 .nav {
     text-align: center;
     color: white;
@@ -62,23 +60,7 @@ nav a:hover {
 
 }
 
-element.style {
-    object-fit: contain;
-    width: 100%;
-}
-
-img {
-    overflow: clip;
-}
-
-
-
-
-
-
-/*For the navbar*/
-
-/*For the home-mainpage*/
+/* For the Home Page */
 
 #welcome {
     font-family: 'Josefin Sans', sans-serif;
@@ -103,9 +85,7 @@ img {
     align-content: center;
 }
 
-/*For the home-mainpage*/
-
-/* For the timeline */
+/* For the Timeline Page */
 
 #sign-event {
     font-family: 'Josefin Sans', sans-serif;
@@ -133,9 +113,7 @@ h2 {
     margin-top: 10%;
 }
 
-/* For the timeline */
-
-/*CSS for the Resources and Contact page*/
+/*For the Resources and Contact Page*/
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -170,9 +148,7 @@ h3 {
 
 
 
-/* Part of the codestructure is inserted from W3 schools website, 
-the link: https://www.w3schools.com/howto/howto_css_contact_form.asp. The code was used in order 
-to create a more styled form as I did not figured it out how to do it alone */
+/* part of this code is inserted from W3 schools website https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
 input[type=email],
 input[type=text],
@@ -188,8 +164,6 @@ textarea {
     resize: vertical
 }
 
-/* Same goes for this code-snippet*/
-
 input[type=submit] {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #002654;
@@ -198,6 +172,8 @@ input[type=submit] {
     border-radius: 10px;
     cursor: pointer;
 }
+
+/*for the Footer*/
 
 footer {
     background-color: #002654;
@@ -214,8 +190,7 @@ footer {
 
 /* Media queries */
 
-
-
+/* For screens up to 600px */
 
 @media screen and (max-width: 600px) {
     h1 {
@@ -260,6 +235,8 @@ footer {
 
 }
 
+/* For screens with a minimum width of 601px */
+
 @media screen and (min-width: 601px) {
     h3 {
         margin: 0 auto;
@@ -276,6 +253,8 @@ footer {
 
     }
 }
+
+/* For screens with a minimum width of 768px */
 
 @media screen and (min-width: 768px) {
 
@@ -299,6 +278,8 @@ footer {
 
 }
 
+/*For screens with a maximum width of 992px*/
+
 @media screen and (max-width: 992px) {
 
     h3 {
@@ -319,7 +300,8 @@ footer {
 
 }
 
-/* For larger to medium screens size from 1200px wide and down */
+/*For screens with a maximum width of 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     h3 {
 
