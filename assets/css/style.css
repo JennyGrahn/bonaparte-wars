@@ -73,7 +73,6 @@ element.style {
 }
 
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
@@ -101,10 +100,6 @@ img {
 
 #textlink {
     text-decoration: none;
-
-    a:hover {
-        color: red;
-    }
 }
 
 #napoleonhome {
