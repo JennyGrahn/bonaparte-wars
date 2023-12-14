@@ -67,6 +67,19 @@ nav a:hover {
 
 }
 
+element.style {
+    object-fit: contain;
+    width: 100%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+
 
 
 /*For the navbar*/
@@ -255,22 +268,6 @@ footer {
 
     }
 
-    #timeline {
-        padding-right: 9em;
-
-    }
-
-    #resources {
-        padding-right: 9em;
-
-    }
-
-    #home {
-        padding-right: 4, 2em;
-
-    }
-
-
 }
 
 @media screen and (min-width: 601px) {
@@ -288,22 +285,6 @@ footer {
         margin: 0 auto;
 
     }
-
-    #timeline {
-        padding-right: 9em;
-
-    }
-
-    #resources {
-        padding-right: 9em;
-
-    }
-
-    #home {
-        padding-right: 4, 2em;
-
-    }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -324,25 +305,12 @@ footer {
 
     }
 
-    #timeline {
-        padding-right: 9em;
-
-    }
-
-    #resources {
-        padding-right: 9em;
-
-    }
-
-    #home {
-        padding-right: 4, 2em;
-
-    }
 
 
 }
 
-@media and (max-width: 992px) {
+@media screen and (max-width: 992px) {
+
     h3 {
         padding-top: 0, 1em;
         margin: 0 auto;
@@ -358,22 +326,6 @@ footer {
         margin: 0 auto;
 
     }
-
-    #timeline {
-        padding-right: 9em;
-
-    }
-
-    #resources {
-        padding-right: 9em;
-
-    }
-
-    #home {
-        padding-right: 4, 2em;
-
-    }
-
 
 }
 
