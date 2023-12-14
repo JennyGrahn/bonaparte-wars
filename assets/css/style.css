@@ -340,7 +340,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 992x) {
+@media screen and (min-width: 992px) {
     h3 {
         padding-top: 0, 1em;
         margin: 0 auto;
@@ -357,20 +357,6 @@ footer {
 
     }
 
-    #timeline {
-        padding-right: 5em;
-
-    }
-
-    #resources {
-        padding-right: 5em;
-
-    }
-
-    #home {
-        padding-right: 3, 2em;
-
-    }
 }
 
 /* For larger to medium screens size from 1200px wide and down */
