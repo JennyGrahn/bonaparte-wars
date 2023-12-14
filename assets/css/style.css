@@ -274,7 +274,6 @@ footer {
 
 @media screen and (min-width: 601px) {
     h3 {
-        padding-top: 0, 1em;
         margin: 0 auto;
     }
 
@@ -309,7 +308,6 @@ footer {
 
 
     h3 {
-        padding-top: 0, 1em;
         margin: 0 auto;
     }
 
@@ -340,24 +338,6 @@ footer {
     }
 }
 
-@media screen and (min-width: 992px) {
-    h3 {
-        padding-top: 0, 1em;
-        margin: 0 auto;
-    }
-
-    #text {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    #header {
-        width: 100%;
-        margin: 0 auto;
-
-    }
-
-}
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
